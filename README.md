@@ -1,2 +1,2 @@
 # project-euler
-[link](https://projecteuler.net)
+[https://projecteuler.net](https://projecteuler.net)
