@@ -62,21 +62,9 @@ def print_execution_time():
 # 11   5    1+1 = 2; 2+2 = 4; 4+4 = 8; 2+8 = 10; 1+10 = 11
 
 k_max = 10;
-# Use 1-based indexing so m(k) = m[index]; m[0] is not used. Initialize m[1] = 0.
+# Use 1-based indexing so m(k) = m[index]; m[0] is not used.
 m = [0] * (k_max + 1);
 for k in range(2, k_max + 1):
-    # The final addition must be some addition of 2 terms which sums to k.
-    # The minimal addition count at most k_max which you would get by adding k_max 1's to get k_max.
-    addition_count_min = k_max;
-    for term_1 in range(1, (k / 2) + 1):
-        term_2 = k - term_1;
-        # The number of additions is 1 (for the final addition) plus m[term_1] plus m[term_2].
-        addition_count = 1 + m[term_1] + m[term_2];
-        print term_1, term_2, addition_count;
-        if addition_count_min > addition_count:
-            addition_count_min = addition_count;
-    print addition_count_min;
-    m[k] = addition_count_min;
     print;
 print m;
 
