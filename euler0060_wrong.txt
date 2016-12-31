@@ -1,0 +1,5 @@
+known prime count = 10000000
+known prime max   = 179424673
+[3, 7, 109, 673, 129976621] sum = 129977413
+Execution time = 2462.760569 seconds.
+Hecate:ProjectEuler fwu$ 

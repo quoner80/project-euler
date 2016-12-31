@@ -1,0 +1,14 @@
+known prime count = 148933
+known prime max   = 1999993
+
+*2*3*3:
+ 121313
+ 222323
+ 323333
+ 424343
+ 525353
+ 626363
+ 828383
+ 929393
+
+Execution time = 40.741641 seconds.
